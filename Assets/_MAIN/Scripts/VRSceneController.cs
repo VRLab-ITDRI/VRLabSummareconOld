@@ -8,7 +8,7 @@ public class VRSceneController : MonoBehaviour
     [SerializeField]
     private string nextScene;
     
-    public AudioSource voiceOver;
+    //public AudioSource voiceOver;
 
     // Start is called before the first frame update
     void Start()
@@ -28,13 +28,13 @@ public class VRSceneController : MonoBehaviour
         StartCoroutine(LoadChangeScene());
     }
 
-    internal void AutoChangeScene()
-    {
-        if (!voiceOver.isPlaying)
-        {
-            StartCoroutine(LoadChangeScene());
-        }
-    }
+    //internal void AutoChangeScene()
+    //{
+    //    if (!voiceOver.isPlaying)
+    //    {
+    //        StartCoroutine(LoadChangeScene());
+    //    }
+    //}
 
     IEnumerator LoadChangeScene()
     {
