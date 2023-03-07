@@ -9,27 +9,30 @@ EditorBuildSettings:
     path: Assets/_MAIN/Scenes/1_Garasi.unity
     guid: c7e81c56d08464048a6b7629df7aef06
   - enabled: 1
+    path: Assets/Oculus/VR/Scenes/TrackedKeyboard.unity
+    guid: eb540761693b1de438733a3581e21f58
+  - enabled: 0
     path: Assets/_MAIN/Scenes/2_PintuMasuk.unity
     guid: 0449d958d2ab6e94fb316ec006368707
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/3_MasukRumah.unity
     guid: 08a6425c98c3e794f8fb2d864dc727eb
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/4_RuangTamu.unity
     guid: fac203a19d75be1459cb2ac8f2071e32
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/5_KamarMandi.unity
     guid: dfe19080825c113428b54e94a108defa
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/6_RuangMakan.unity
     guid: 72f3f0efed20dd3408b776972f6349b2
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/7_KamarTidur.unity
     guid: 8b0a1a8e484c8f243ac9c92038774eca
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/8_Dapur.unity
     guid: 6a94a0d6edd29bd4f97fc4c287a80b25
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/9_DapurGelap.unity
     guid: 997893de04a0c2a4c9ba9127e9dd683f
   m_configObjects:
