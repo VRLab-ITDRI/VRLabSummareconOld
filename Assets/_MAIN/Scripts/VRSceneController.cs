@@ -20,7 +20,7 @@ public class VRSceneController : MonoBehaviour
     void Update()
     {
         // detect audio source when enter isComplete phase
-        AutoChangeScene();
+        //AutoChangeScene();
     }
 
     public void NextScene()
