@@ -13,25 +13,32 @@ public class VRSceneController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //voiceOver = GetComponent<AudioSource>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        // detect audio source when enter isComplete phase
+        AutoChangeScene();
     }
 
     public void NextScene()
     {
+        StartCoroutine(LoadChangeScene());
+    }
+
+    internal void AutoChangeScene()
+    {
         if (!voiceOver.isPlaying)
         {
-            IEnumerator LoadChangeScene()
-            {
-                yield return new WaitForSeconds(1f);
-                SceneManager.LoadScene(nextScene);
-            }
             StartCoroutine(LoadChangeScene());
         }
+    }
+
+    IEnumerator LoadChangeScene()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(nextScene);
     }
 }
