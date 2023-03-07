@@ -33,8 +33,29 @@ EditorBuildSettings:
     path: Assets/_MAIN/Scenes/9_DapurGelap.unity
     guid: 997893de04a0c2a4c9ba9127e9dd683f
   - enabled: 1
-    path: Assets/_MAIN/Scenes/2_PintuMasukController.unity
+    path: Assets/_MAIN/Scenes/Build/2_PintuMasukController.unity
     guid: 4829a642c1dc0834c9bedbd20e513ff8
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/Build/3_MasukRumahController.unity
+    guid: 3deb7e6864071de49ae7bafd3b4cb33a
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/Build/4_RuangTamuController.unity
+    guid: 2a3a17c53c951bf419b13e99b19a7771
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/Build/5_KamarMandiController.unity
+    guid: a3bf526071d4c8d4a9d5a50cc2dced3e
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/Build/6_RuangMakanController.unity
+    guid: f4a250bbf1a33e84dab9a29d39d71174
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/Build/7_KamarTidurController.unity
+    guid: c28d1be4b8c88ac4388d916434929060
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/Build/8_DapurController.unity
+    guid: 398b709c8f95bc741ac9f556f33a933e
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/Build/9_DapurGelapController.unity
+    guid: 679ddaba7744d4644a91978b17b6d43a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
