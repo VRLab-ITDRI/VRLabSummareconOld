@@ -5,40 +5,35 @@ using UnityEngine.SceneManagement;
 
 public class VRSceneController : MonoBehaviour
 {
-    [SerializeField]
-    private string nextScene;
-    
-    //public AudioSource voiceOver;
+    public GameObject popUpWindow;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        // mematikan pop up window pada saat start
+        popUpWindow.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        // detect audio source when enter isComplete phase
-        //AutoChangeScene();
+        
     }
 
-    public void NextScene()
+    // fungsi mengganti ke scene berikutnya
+    public void NextScene(string nextScene)
     {
+        IEnumerator LoadChangeScene()
+        {
+            yield return new WaitForSeconds(1f);
+            SceneManager.LoadScene(nextScene);
+        }
         StartCoroutine(LoadChangeScene());
     }
 
-    //internal void AutoChangeScene()
-    //{
-    //    if (!voiceOver.isPlaying)
-    //    {
-    //        StartCoroutine(LoadChangeScene());
-    //    }
-    //}
-
-    IEnumerator LoadChangeScene()
+    // fungsi memunculkan pop up window
+    public void PopUp()
     {
-        yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene(nextScene);
+        popUpWindow.SetActive(true);
     }
 }
