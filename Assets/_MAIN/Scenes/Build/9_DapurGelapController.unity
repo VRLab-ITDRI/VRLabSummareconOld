@@ -2181,9 +2181,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447134697783084503, guid: b608e26152b20b44ba4535bf5bb67908,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 447134697783084503, guid: b608e26152b20b44ba4535bf5bb67908,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1725981628}
+    - target: {fileID: 447134697783084503, guid: b608e26152b20b44ba4535bf5bb67908,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitVR
+      objectReference: {fileID: 0}
     - target: {fileID: 447134697783084503, guid: b608e26152b20b44ba4535bf5bb67908,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
