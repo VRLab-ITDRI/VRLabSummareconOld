@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_MAIN/Scenes/Build/Menu.unity
+    guid: 7e9f8b22b28714e44b92c6fe3d1e02b4
+  - enabled: 1
     path: Assets/_MAIN/Scenes/Build/2_PintuMasukController.unity
     guid: 4829a642c1dc0834c9bedbd20e513ff8
   - enabled: 1
