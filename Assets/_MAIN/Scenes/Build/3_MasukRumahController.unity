@@ -318,6 +318,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1692676123}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &353455931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1002,18 +1014,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202370927}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 69540}
+  m_LocalRotation: {x: -0, y: 0.20606357, z: -0, w: 0.9785387}
+  m_LocalPosition: {x: 0, y: 0, z: 69540.01}
   m_LocalScale: {x: 6.863748, y: 33.933212, z: 2.889999}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 667326506}
   m_Father: {fileID: 1554507561}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 23.784, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 17247, y: 3589.998}
+  m_AnchoredPosition: {x: 17246.998, y: 77609}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1202370929
@@ -1574,8 +1586,19 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0f497dd412d30664ba537dd0e950a2cc, type: 3}
+    - target: {fileID: 8174233908686504845, guid: 7f1961e064b41b7418f8c2ecc8b34ed1,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f1961e064b41b7418f8c2ecc8b34ed1, type: 3}
+--- !u!82 &1692676123 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8174233908686504845, guid: 7f1961e064b41b7418f8c2ecc8b34ed1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1692676122}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1725981626
 GameObject:
   m_ObjectHideFlags: 0
