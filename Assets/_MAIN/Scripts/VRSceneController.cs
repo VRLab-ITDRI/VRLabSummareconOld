@@ -36,4 +36,10 @@ public class VRSceneController : MonoBehaviour
     {
         popUpWindow.SetActive(true);
     }
+
+    // fungsi keluar aplikasi
+    public void QuitVR()
+    {
+        Application.Quit();
+    }
 }
