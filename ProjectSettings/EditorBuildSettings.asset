@@ -6,39 +6,42 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_DEV/Scenes/DEVELOPMENT_TEST.unity
+    guid: 5c591078a1504c740a6730e327055b5c
+  - enabled: 0
     path: Assets/_MAIN/Scenes/Build/Menu.unity
     guid: 7e9f8b22b28714e44b92c6fe3d1e02b4
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/Build/2_PintuMasukController.unity
     guid: 4829a642c1dc0834c9bedbd20e513ff8
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/Build/3_MasukRumahController.unity
     guid: 3deb7e6864071de49ae7bafd3b4cb33a
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/Build/4_RuangTamuController.unity
     guid: 2a3a17c53c951bf419b13e99b19a7771
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/Build/5_KamarMandiController.unity
     guid: a3bf526071d4c8d4a9d5a50cc2dced3e
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/Build/6_RuangMakanController.unity
     guid: f4a250bbf1a33e84dab9a29d39d71174
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/Build/6_RuangMakanControllerHijau.unity
     guid: 4db12ed15d118054db891a29421d7ae8
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/Build/6_RuangMakanControllerBiru.unity
     guid: 4e73c0517d006c348a25118ebf5e91e6
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/Build/6_RuangMakanControllerPink.unity
     guid: 2b26add20d850b5489c13ae586c59f13
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/Build/7_KamarTidurController.unity
     guid: c28d1be4b8c88ac4388d916434929060
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/Build/8_DapurController.unity
     guid: 398b709c8f95bc741ac9f556f33a933e
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/Build/9_DapurGelapController.unity
     guid: a291f0f837904a74e9e80549133f4b68
   m_configObjects:
