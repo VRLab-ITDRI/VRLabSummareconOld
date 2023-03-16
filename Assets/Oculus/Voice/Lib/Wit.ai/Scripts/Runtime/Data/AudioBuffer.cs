@@ -71,11 +71,11 @@ namespace Meta.WitAi.Data
                     }
                 }
             }
-            // Use default mic script
-            if (_micInput == null)
-            {
-                _micInput = gameObject.AddComponent<Mic>();
-            }
+            //// Use default mic script
+            //if (_micInput == null)
+            //{
+            //    _micInput = gameObject.AddComponent<Mic>();
+            //}
 
             InitializeMicDataBuffer();
         }
